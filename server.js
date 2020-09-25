@@ -27,7 +27,7 @@ var server = require('http').Server(app);
 var PORT = 8080;
 
 //server.listen(process.env.PORT, function () {
-server.listen(PORT, function () {
-    console.log("Server is listening on port "+PORT);
+server.listen(process.env.PORT, function () {
+    console.log("Server is listening on port "+process.env.PORT);
 });
 require('./app/routes/note.routes.js')(app);
