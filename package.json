@@ -13,7 +13,7 @@
     "sync-request": "*",
     "compression": "*",
     "http": "*",
-    "body-parser": "*",
+    "body-parser": "*"
   },
   "license": "ISC"
 }
